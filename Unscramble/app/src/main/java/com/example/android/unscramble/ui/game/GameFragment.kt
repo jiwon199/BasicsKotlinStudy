@@ -21,6 +21,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.android.unscramble.R
@@ -40,7 +41,7 @@ class GameFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View {
         // Inflate the layout XML file and return a binding object instance
-        binding = GameFragmentBinding.inflate(inflater, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.game_fragment, container, false)
         Log.d("GameFragment", "GameFragment created/re-created!")
         return binding.root
     }
@@ -52,10 +53,13 @@ class GameFragment : Fragment() {
         binding.submit.setOnClickListener { onSubmitWord() }
         binding.skip.setOnClickListener { onSkipWord() }
         // Update the UI
-        updateNextWordOnScreen()
-        binding.score.text = getString(R.string.score, 0)
-        binding.wordCount.text = getString(
-                R.string.word_count, 0, MAX_NO_OF_WORDS)
+
+        binding.gameViewModel = viewModel
+        binding.maxNoOfWords = MAX_NO_OF_WORDS
+        //레이아웃에 수명주기 전달
+        binding.lifecycleOwner = viewLifecycleOwner
+
+
     }
 
     /*
@@ -67,9 +71,7 @@ class GameFragment : Fragment() {
 
         if (viewModel.isUserWordCorrect(playerWord)) {
             setErrorTextField(false)
-            if (viewModel.nextWord()) {
-                updateNextWordOnScreen()
-            } else {
+            if (!viewModel.nextWord()) {
                 showFinalScoreDialog()
             }
         } else {
@@ -85,7 +87,7 @@ class GameFragment : Fragment() {
     private fun onSkipWord() {
         if (viewModel.nextWord()) {
             setErrorTextField(false)
-            updateNextWordOnScreen()
+
         } else {
             showFinalScoreDialog()
         }
@@ -104,7 +106,7 @@ class GameFragment : Fragment() {
     private fun restartGame() {
         viewModel.reinitializeData()
         setErrorTextField(false)
-        updateNextWordOnScreen()
+
     }
 
     /*
@@ -130,15 +132,13 @@ class GameFragment : Fragment() {
     /*
      * Displays the next scrambled word on screen.
      */
-    private fun updateNextWordOnScreen() {
-        binding.textViewUnscrambledWord.text = viewModel.currentScrambledWord
-    }
+
     //대화상자 만드는 함수를 만들어서 필요할때 적절히 호출하자.
     private fun showFinalScoreDialog() {
         //requireContext는 프래그먼트에서 context 반환할때 쓰는 함수.
         MaterialAlertDialogBuilder(requireContext())
             .setTitle(getString(R.string.congratulations))  //타이틀
-            .setMessage(getString(R.string.you_scored, viewModel.score)) //메세지
+            .setMessage(getString(R.string.you_scored, viewModel.score.value)) //메세지
             .setCancelable(false) //뒤로가기 불가
             //나가기 텍스트추가
             .setNegativeButton(getString(R.string.exit)) { _, _ ->
