@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_accompaniment_menu.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_entree_menu.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\fragment_entree_menu.xml"
+    },
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_start_order.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\fragment_start_order.xml"
+    },
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_side_menu.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\fragment_side_menu.xml"
+    },
+    {
+        "merged": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_checkout.xml",
+        "source": "C:\\coding2\\kotlinRepo\\lunch-tray\\app\\src\\main\\res\\layout\\fragment_checkout.xml"
+    }
+]
