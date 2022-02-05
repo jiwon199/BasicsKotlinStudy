@@ -19,4 +19,5 @@
 - activity / when / 단위 테스트 / 디버깅
 - [📝 Dice Roller 앱](/DiceRoller)
 
-##### 과제:  [📚 Lemonade 앱](/Lemonade)
+##### Unit 1 과제
+- [📚 Lemonade 앱](/Lemonade)
