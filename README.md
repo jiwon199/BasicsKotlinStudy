@@ -6,7 +6,6 @@
 - 📝 해당 PATHWAY를 공부하며 학습한 실습 코드
 - 📚 스켈레톤 코드를 솔루션 없이 완성시켜야 하는 과제. 채점은 스켈레톤 코드에 포함된 테스트 코드로 이루어집니다. 
 
----
 ## Unit 1: Kotlin basics
 ##### PATHWAY1: Introduction to Kotlin [📒](https://velog.io/@jiwon_choi/Introduction-to-Kotlin)
 - 함수/ 변수 / 루프
