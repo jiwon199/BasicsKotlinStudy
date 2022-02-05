@@ -1,1 +1,2 @@
-*.java linguist-detectable=false
+* linguist-vendored
+*.kotlin linguist-vendored=false
