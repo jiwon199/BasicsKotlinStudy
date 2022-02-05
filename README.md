@@ -3,7 +3,7 @@
 
 📒 기술블로그 링크 / 📝 실습 코드 링크 / 📚 과제 코드 링크  
 
-📚 주어진 스켈레톤 코드를 솔루션 없이 완성시키는 것이 과제입니다. 채점은 스켈레톤 코드에 포함된 테스트 코드로 이루어집니다.
+- 📚 주어진 스켈레톤 코드를 솔루션 없이 완성시키는 것이 과제입니다. 채점은 스켈레톤 코드에 포함된 테스트 코드로 이루어집니다.
 
 ## Unit 1: Kotlin basics
 #### PATHWAY1: Introduction to Kotlin [📒](https://velog.io/@jiwon_choi/Introduction-to-Kotlin)
