@@ -56,8 +56,12 @@
 - [📝 MarsPhotos 앱](/MarsPhotos)
 
 ## Unit 5: Data persistence
-#### PATHWAY1: INTRODUCTION TO SQL, ROOM, AND FLOW [📒]()
+#### PATHWAY1: INTRODUCTION TO SQL, ROOM, AND FLOW [📒](https://velog.io/@jiwon_choi/Unit-5-1)
+- 관계형 데이터베이스 / SQL / Room / Dao / Flow
+- [📝 SQLBasics 앱](/SQLBasics)
+- [📝 BusSchedule 앱](/BusSchedule)
 #### PATHWAY2: USE ROOM FOR DATA PERSISTENCE [📒]()
+- [📝 Inventory 앱](/Inventory)
 
 ## Unit 6: WorkManager  
 #### PATHWAY1: SCHEDULE TASKS [📒]()
