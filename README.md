@@ -24,7 +24,7 @@
 - 클래스와 상속 / abstract / override / open / with / view binding
 #### PATHWAY2: Get user input in an app: Part 2 [📒](https://velog.io/@jiwon_choi/Unit2-2)
 - 테마 / 빌드 아이콘 / 머티리얼 / 아이콘 / 스타일/ Espresso
-- [📝 Tip Time App](/TipTime)
+- [📝 Tip Time 앱](/TipTime)
 #### PATHWAY3: Display a scrollable list [📒](https://velog.io/@jiwon_choi/Unit2-3)
 - List / MutableList / RecyclerView
 - [📝  Affirmations 앱](/Affirmations )
@@ -47,3 +47,18 @@
 - [📝 Cupcake 앱](/Cupcake)
 
 #### [📚 Lunch-Tray 앱](/lunch-tray) -Unit 3 과제
+
+## Unit 4: Connect to the internet
+#### PATHWAY1: Coroutines [📒](https://velog.io/@jiwon_choi/Unit-4-1)
+- 멀티스레딩 / 코루틴
+#### PATHWAY2: Get data from the internet [📒](https://velog.io/@jiwon_choi/Unit-4-2)
+- RESTful / HTTP / Moshi / Coil / 결합 어댑터
+- [📝 MarsPhotos 앱](/MarsPhotos)
+
+## Unit 5: Data persistence
+#### PATHWAY1: INTRODUCTION TO SQL, ROOM, AND FLOW [📒]()
+#### PATHWAY2: USE ROOM FOR DATA PERSISTENCE [📒]()
+
+## Unit 6: WorkManager  
+#### PATHWAY1: SCHEDULE TASKS [📒]()
+
