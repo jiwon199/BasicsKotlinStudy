@@ -60,9 +60,12 @@
 - 관계형 데이터베이스 / SQL / Room / Dao / Flow
 - [📝 SQLBasics 앱](/SQLBasics)
 - [📝 BusSchedule 앱](/BusSchedule)
-#### PATHWAY2: USE ROOM FOR DATA PERSISTENCE [📒]()
+#### PATHWAY2: USE ROOM FOR DATA PERSISTENCE [📒](https://velog.io/@jiwon_choi/Unit-5-2)
+- Room을 더 자세히
 - [📝 Inventory 앱](/Inventory)
 
 ## Unit 6: WorkManager  
-#### PATHWAY1: SCHEDULE TASKS [📒]()
+#### PATHWAY1: SCHEDULE TASKS [📒](https://velog.io/@jiwon_choi/Unit-6-%EB%81%9D)
+- WorkManager / 작업 체이닝 / 고유 작업 체이닝
+- [📝 WorkManager 앱](/Workmanager)
 
